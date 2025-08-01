@@ -17,7 +17,7 @@ void main(){
   print(number);
   
   print("Digite seu segundo número: ");
-  int? secondNumber = int.parse(stdin.readLineSync()!); ! // !para garantir que entrada não seja nula para poder converter
+  int? secondNumber = int.parse(stdin.readLineSync()!); // !para garantir que entrada não seja nula para poder converter
   //? caso ele digite nulo o interrogação indica que foi nulo
   print(secondNumber);
   
@@ -38,7 +38,6 @@ void main(){
   int? idade = int.parse(stdin.readLineSync()!);
   print(idade);
   
-  if
   
   
   
