@@ -40,6 +40,33 @@ void main(){
             print("${nameUser} Your third salary is positive - ${thirdSalary}");
             status = false;
         }
+
+
+        double average = (firstSalary + secondSalary + thirdSalary) / 3
+
+        if(firstSalary > average){
+          print("${nameUser} - first salary is BIGGER than average")
+        } else if (firstSalary == average){
+          print("${nameUser} - firstSalary is equal average ")
+        } else{
+          print("${nameUser} - first salary is smaller than average")
+        }
+
+        if(secondSalary > average){
+          print("${nameUser} - second salary is BIGGER than average")
+        } else if (secondSalary == average){
+          print("${nameUser} - second salary is equal average ")
+        } else{
+          print("${nameUser} - second salary is smaller than average")
+        }
+
+        if(thirdSalary > average){
+          print("${nameUser} - third salary is BIGGER than average")
+        } else if (thirdSalary == average){
+          print("${nameUser} - third salary is equal average ")
+        } else{
+          print("${nameUser} - third salary is smaller than average")
+        }
     }
     
 
