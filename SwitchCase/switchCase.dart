@@ -1,3 +1,4 @@
+
 import "dart:io";
 
 
@@ -7,6 +8,14 @@ void main (){
 
     switch(note){
         case 1:
-        print("you typing 1")
+          print("you typing 1");
+          break;
+        case 2:
+          print("teste");
+          break;
+        default:
+          print("teste");
+
+
     }
 }
