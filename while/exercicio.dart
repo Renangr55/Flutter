@@ -8,11 +8,13 @@ void main(){
   double sum = 0;
 
   while(contador == 0){
-    print("maracuja");
+    print("\nmaracuja");
     print("maça");
     print("Uva");
     print("limao");
-    print("morango");
+    print("abcaxi");
+    print("morango \n");
+  
 
     print("Digite o CPF: ");
     int? cpf = int.parse(stdin.readLineSync()!);
@@ -29,24 +31,38 @@ void main(){
     String? escolha = stdin.readLineSync();
 
     if(escolha == "N"){
-      print("acabouuuuu");
+      print("\n____ Encerrando o programa______");
+
+      total.forEach((total){
+      sum+=total;
+      });
+
+      print("\n total da compra: ${sum}\n");
+
+      produtos.forEach((produtos){
+        print(produtos);
+      });
+
+      print("___________________");
+
+      print("escolha a forma de pagamento");
+      print("1 - A vista");
+      print("2 - Parceladono cartão");
+      print("3 - fiado");
+     
+      
       contador++;
-    } else if(escolha == "S"){
+
+
+    } else if(escolha == "S".toLowerCase()){
      print("começando outra compra"); 
     } else {
       print("não reconheci essa opção");
     }
   }
 
-  total.forEach((total){
-    sum+=total;
-  });
+  
 
-  print("total: ${sum}");
-
-  produtos.forEach((produtos){
-    print(produtos);
-  });
 
   
 
