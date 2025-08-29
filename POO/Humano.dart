@@ -10,7 +10,6 @@ class Humano {
 
   Humano(this.nome,this.idade,this.genero,this.altura,this.etnia,this.peso);
 
- 
 }
 
 
